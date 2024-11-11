@@ -872,6 +872,7 @@
   "StripeConnectAccountForm.bankAccountLabel": "Bankkonto",
   "StripeConnectAccountForm.companyAccount": "Ich vertrete ein Unternehmen",
   "StripeConnectAccountForm.countryLabel": "Land",
+  "StripeConnectAccountForm.countryNames.AE": "United Arab Emirates",
   "StripeConnectAccountForm.countryNames.AT": "Österreich",
   "StripeConnectAccountForm.countryNames.AU": "Australien",
   "StripeConnectAccountForm.countryNames.BE": "Belgien",

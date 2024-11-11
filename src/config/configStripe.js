@@ -337,4 +337,12 @@ export const supportedCountries = [
       accountNumber: true,
     },
   },
+  {
+     // United Arab Emirates
+    code: 'AE',
+    currency: 'AED',
+    accountConfig: {
+      iban: true,
+    },
+  },
 ];

@@ -908,6 +908,7 @@
   "StripeConnectAccountForm.countryNames.SI": "Eslovenia",
   "StripeConnectAccountForm.countryNames.SK": "Eslovaquia",
   "StripeConnectAccountForm.countryNames.US": "Estados Unidos",
+  "StripeConnectAccountForm.countryNames.AE": "United Arab Emirates",
   "StripeConnectAccountForm.countryPlaceholder": "Selecciona tu país…",
   "StripeConnectAccountForm.countryRequired": "Este campo es obligatorio.",
   "StripeConnectAccountForm.createStripeAccountFailed": "Algo salió mal. Inténtalo de nuevo. Si el problema persiste, contacta al equipo de soporte.",
