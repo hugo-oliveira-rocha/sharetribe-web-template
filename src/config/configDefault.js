@@ -20,7 +20,7 @@ const defaultConfig = {
   // It should match one of the currencies listed in currencySettings.js
   // Note: The currency comes from localization asset nowadays by default.
   //       To use this built-in configuration, you need to remove the overwrite from configHelper.js (mergeCurrency func)
-  currency: 'USD',
+  currency: 'AED',
 
   // Listing minimum price in currency sub units, e.g. cents.
   // By default, always try to take the value of listingMinimumPriceSubUnits from the transaction-size.json asset.
@@ -72,7 +72,7 @@ const defaultConfig = {
   // Note: The localization comes from localization asset nowadays by default.
   //       To use this built-in configuration, you need to remove the overwrite from configHelper.js (mergeLocalizations func)
   localization: {
-    locale: 'en-US',
+    locale: 'ar-AE',
     // First day of week
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo#return_value
     // 1: Monday

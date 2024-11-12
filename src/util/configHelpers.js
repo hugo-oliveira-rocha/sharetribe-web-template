@@ -90,7 +90,7 @@ const validAccessControl = accessControlConfig => {
 /////////////////////////
 
 const mergeCurrency = (hostedCurrency, defaultCurrency) => {
-  const currency = hostedCurrency || defaultCurrency;
+  const currency = defaultCurrency;
   const supportedCurrencies = Object.keys(subUnitDivisors);
   if (supportedCurrencies.includes(currency)) {
     return currency;
@@ -123,7 +123,7 @@ const validateStripeCurrency = stripe => {
 
 const mergeLocalizations = (hostedLocalization, defaultLocalization) => {
   // This defaults to 'en', if no locale is set.
-  const locale = hostedLocalization?.locale || defaultLocalization.locale || 'en';
+  const locale = defaultLocalization.locale || 'en';
   // NOTE: We use this with DatePicker and moment, the range should be 0 - 6 instead of 1-7.
   const firstDay = hostedLocalization?.firstDayOfWeek || defaultLocalization.firstDayOfWeek || 1;
   const firstDayInMomentRange = firstDay % 7;
